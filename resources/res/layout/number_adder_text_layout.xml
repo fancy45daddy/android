@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textColor="@color/white" android:gravity="center" android:id="@+id/tv_reduce" android:background="@drawable/customize_shape_goods_reduce_bg" android:layout_width="@dimen/dp_30" android:layout_height="match_parent" android:text="-"/>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp_14" android:textColor="@color/white" android:gravity="center" android:id="@+id/et_count" android:background="@drawable/customize_shape_goods_count_bg" android:layout_width="0dp" android:layout_height="match_parent" android:text="1" android:maxLength="8" android:layout_weight="1"/>
+    <TextView android:textColor="@color/white" android:gravity="center" android:id="@+id/tv_add" android:background="@drawable/customize_shape_goods_add_bg" android:layout_width="@dimen/dp_30" android:layout_height="match_parent" android:text="+"/>
+</LinearLayout>

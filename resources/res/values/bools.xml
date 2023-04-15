@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="abc_action_bar_default_height_material">true</bool>
+    <bool name="enable_system_foreground_service_default">true</bool>
+    <bool name="abc_action_bar_default_padding_start_material">false</bool>
+    <bool name="abc_action_bar_elevation_material">true</bool>
+    <bool name="abc_action_bar_icon_vertical_padding_material">false</bool>
+</resources>

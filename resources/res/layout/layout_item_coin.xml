@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/item_root" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/dp_15">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="vertical" android:background="@drawable/vip_selector" android:paddingTop="@dimen/dp_25" android:paddingBottom="@dimen/dp_25" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp_18" android:textColor="@color/white" android:id="@+id/tv_item_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1000"/>
+                <androidx.legacy.widget.Space android:layout_width="@dimen/dp_6" android:layout_height="wrap_content"/>
+                <TextView android:textSize="@dimen/sp_11" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_credits"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <TextView android:textSize="@dimen/sp_11" android:textColor="@color/red_ffb0" android:id="@+id/tv_pro_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:text="PRO +100"/>
+            <TextView android:textSize="@dimen/sp_20" android:textStyle="bold" android:textColor="@color/white" android:id="@+id/tv_item_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:text="USD99.99"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <com.magic.ai.android.views.LabelView android:layout_gravity="end" android:id="@+id/lv_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" app:lv_background_color="@color/red_ff4c3b" app:lv_fill_triangle="true" app:lv_gravity="53" app:lv_min_size="@dimen/dp_60" app:lv_padding="@dimen/dp_3" app:lv_text="@string/str_best_value" app:lv_text_all_caps="false" app:lv_text_size="@dimen/sp_12"/>
+    </FrameLayout>
+</com.google.android.material.card.MaterialCardView>

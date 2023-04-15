@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="24dp" android:width="24dp" android:viewportWidth="1024" android:viewportHeight="1024">
+    <path android:fillColor="@color/notification_template_icon_low_bg" android:pathData="M85.3,810.7h853.3v85.3L85.3,896v-85.3zM85.3,213.3l213.3,149.3L512,85.3l213.3,277.3L938.7,213.3v512L85.3,725.3L85.3,213.3zM170.7,377.2L170.7,640h682.7L853.3,377.2l-145.9,102.1L512,225.3l-195.4,254.1L170.7,377.2z"/>
+</vector>
