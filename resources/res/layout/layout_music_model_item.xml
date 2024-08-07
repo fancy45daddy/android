@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:background="@drawable/style_selector" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp_16" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@+id/tv_item" android:paddingTop="@dimen/dp_8" android:paddingBottom="@dimen/dp_8" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="1" android:paddingStart="@dimen/dp_16" android:paddingEnd="@dimen/dp_16"/>
-</androidx.appcompat.widget.LinearLayoutCompat>

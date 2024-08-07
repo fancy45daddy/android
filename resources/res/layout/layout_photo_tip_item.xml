@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/abc_text_select_handle_middle_mtrl_dark" android:layout_width="@dimen/dp_140" android:layout_height="wrap_content" android:elevation="@dimen/dp_6" app:cardBackgroundColor="@color/abc_text_select_handle_middle_mtrl_dark" app:cardCornerRadius="@dimen/dp_12" app:cardElevation="@dimen/dp_6">
-    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@+id/ll_item_root" android:layout_width="match_parent" android:layout_height="@dimen/dp_220">
-        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/iv_tip" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ic_avator1" android:scaleType="centerCrop"/>
-    </androidx.appcompat.widget.LinearLayoutCompat>
-</com.google.android.material.card.MaterialCardView>

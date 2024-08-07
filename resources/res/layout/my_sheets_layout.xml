@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/bg_dialog_top_corner" android:padding="@dimen/dp_16" android:layout_width="match_parent" android:layout_height="match_parent">
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp_20" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:paddingTop="@dimen/dp_16" android:paddingBottom="@dimen/dp_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_select_music_style"/>
-    <androidx.recyclerview.widget.RecyclerView android:id="@+id/music_style_list" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never"/>
-</androidx.appcompat.widget.LinearLayoutCompat>

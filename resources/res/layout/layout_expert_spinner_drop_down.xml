@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/sp_14" android:textColor="@color/white" android:gravity="center" android:id="@+id/spinner_title" android:background="@drawable/ic_drop_down" android:layout_width="wrap_content" android:layout_height="@dimen/dp_35"/>

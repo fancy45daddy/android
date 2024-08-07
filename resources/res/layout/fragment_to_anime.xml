@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/abc_text_select_handle_left_mtrl_dark" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.flyco.tablayout.SlidingTabLayout android:id="@+id/mine_tab_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dp_52" app:tl_indicator_color="@color/main_green" app:tl_indicator_height="@dimen/dp_2" app:tl_indicator_width_equal_title="true" app:tl_tab_space_equal="true" app:tl_textBold="2" app:tl_textSelectColor="@color/main_green" app:tl_textUnselectColor="@color/black_9999" app:tl_textsize="@dimen/sp_16" app:tl_underline_color="@color/transparent" app:tl_underline_height="0dp"/>
-    <androidx.viewpager.widget.ViewPager android:id="@+id/home_view_pager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/mine_tab_layout" android:overScrollMode="never"/>
-</RelativeLayout>

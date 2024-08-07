@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/translucent_black_50" android:layout_width="match_parent" android:layout_height="match_parent">
-    <androidx.legacy.widget.Space android:layout_width="wrap_content" android:layout_height="@dimen/dp_260"/>
-    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="@dimen/dp_200" android:src="@drawable/ic_guide_2" android:rotation="300"/>
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sp_20" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" android:text="@string/str_input_prompt_tips3" android:layout_marginStart="@dimen/dp_20" android:layout_marginEnd="@dimen/dp_20"/>
-</androidx.appcompat.widget.LinearLayoutCompat>
